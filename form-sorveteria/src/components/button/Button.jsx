@@ -16,7 +16,7 @@ export const Button = () => {
         transition: 200ms ease-in-out;
 
         &:hover {
-            background-color: #036ec0;
+            background: linear-gradient(45deg, #8228FA, #2D47FA, #2EDBFA);
             transform: scale(105%);
         }
 

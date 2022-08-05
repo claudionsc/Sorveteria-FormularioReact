@@ -1,5 +1,8 @@
 import React from "react";
 import {Button} from "../button/Button";
+import { SaboresForm } from "./FormStyle";
+import { Casquinha } from "./FormStyle";
+import { Colher } from "./FormStyle";
 
 
 class SorveteForm extends React.Component {
@@ -38,7 +41,7 @@ class SorveteForm extends React.Component {
             
 
             <form onSubmit={this.handleSubmit} style={{ display: 'flex', flexDirection: 'column'}} id='form'>
-                <label>
+                <SaboresForm>
                     Escolha o sabor:
                     <select name="sabor" value={this.state.sabor} onChange={this.handleInputChange} id="">
                         <option value="chocolate">Chocolate</option>
@@ -47,12 +50,12 @@ class SorveteForm extends React.Component {
                         <option value="cafe">Café</option>
                         <option value="coco">Coco</option>
                     </select>
-                </label>
-                <label>
+                </SaboresForm>
+                <Casquinha>
                     <input type="checkbox" name="casquinha" checked={this.state.casquinha} onChange={this.handleInputChange} id="casquinha" />
                     Colocar na casquinha?
-                </label>
-                <label>
+                </Casquinha>
+                <Colher>
                     Colher?
                     <div className="radio">
                         <label>
@@ -66,7 +69,7 @@ class SorveteForm extends React.Component {
                             Não
                         </label>
                     </div>
-                </label>
+                </Colher>
                 <Button />
                 
 
@@ -76,11 +79,5 @@ class SorveteForm extends React.Component {
     }
 }
 
-
-// function Form() {
-//     return(
-//         <h1>Form funcionando</h1>
-//     )
-// }
 
 export default SorveteForm
