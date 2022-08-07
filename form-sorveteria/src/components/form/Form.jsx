@@ -31,7 +31,25 @@ class SorveteForm extends React.Component {
 
     handleSubmit(event) {
         const { sabor, casquinha, colher } =this.state;
-        alert( `Seu sabor escolhido foi ${sabor}. Casquinha? ${casquinha}. Colher?${colher}`)
+        
+        let alerta = '';
+        
+        if (casquinha === true && colher === 'sim'){
+            alerta = 'com casquinha e com colher'
+            alert( `Seu sabor escolhido foi ${sabor}, ${alerta} `)
+           
+        }else if (casquinha === false && colher === 'sim'){
+            alerta = 'sem casquinha e com colher'
+            alert( `Seu sabor escolhido foi ${sabor}, ${alerta} `)
+
+        }else if (casquinha === true && colher === 'nao'){
+            alerta = 'com casquinha e sem colher'
+            alert( `Seu sabor escolhido foi ${sabor}, ${alerta} `)
+
+        } else if (casquinha === false && colher === 'nao')
+        alerta = 'sem casquinha e sem colher'
+            alert( `Seu sabor escolhido foi ${sabor}, ${alerta} `)
+
         event.preventDefault();
     }
 

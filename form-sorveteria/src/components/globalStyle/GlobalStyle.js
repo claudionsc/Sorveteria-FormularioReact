@@ -13,7 +13,7 @@ export const GlobalStyle = createGlobalStyle`
         display: flex;
         align-items: center;
         justify-content: center;
-        background: linear-gradient(45deg, pink,  #8228FA, #2D47FA, #2EDBFA);
+        background: linear-gradient(45deg, pink,  #8228FA, #2D47FA, #2EDBFA, yellowgreen);
         background-size: 200% 200%;
         animation: ease infinite animaBg 10s;
         
@@ -52,7 +52,7 @@ export const GlobalStyle = createGlobalStyle`
         border-radius: 5px;
     }
 
-    h1{
+    .titles{
         color: white;
         text-transform: uppercase;
         padding-top: 20px;

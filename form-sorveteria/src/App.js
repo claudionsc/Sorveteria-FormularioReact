@@ -9,14 +9,16 @@ function App() {
   return (
           <div id="main">
 
-            <h1>
+            <h1 className="titles">
               <IceCream className="iceCream" />
               Faça o seu pedido
               
               </h1>
+              
             <GlobalStyle />
             <FormStyle />
-            <SorveteForm />            
+            <SorveteForm />  
+            <p className="titles">Esta página foi criada com ReactJs, styled components e componentização</p>          
           </div>  
   );
 }
