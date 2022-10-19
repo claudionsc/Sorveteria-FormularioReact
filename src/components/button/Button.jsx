@@ -7,7 +7,7 @@ export const Button = () => {
 }
     const Input = styled.input`
         background-color: #6dd3e1;
-        width: 10vw;
+        width: 40%;
         height: 4vh;
         border: none;
         border-radius: 5px;
@@ -18,6 +18,11 @@ export const Button = () => {
         &:hover {
             background: linear-gradient(45deg, #8228FA, #2D47FA, #2EDBFA);
             transform: scale(105%);
+        }
+
+        @media (max-width: 500px) {
+            width: 40%;
+            height: 100vh;
         }
 
     `

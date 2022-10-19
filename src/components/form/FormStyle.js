@@ -13,7 +13,15 @@ export const FormStyle = createGlobalStyle`
         justify-content: space-evenly;
         border-radius: 5px;
         margin-top: 10px;
+        background-color: yellowgreen;
 
+        
+    }
+    @media (max-width: 500px) {
+        #form{
+            width: 80%;
+        }
+        
     }
 
 `
