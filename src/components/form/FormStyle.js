@@ -11,8 +11,8 @@ export const FormStyle = createGlobalStyle`
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
-        
         border-radius: 5px;
+        margin-top: 10px;
 
     }
 
