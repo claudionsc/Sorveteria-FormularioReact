@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Sorveteria-FormularioReact/static/css/main.07d46947.css",
+    "main.js": "/Sorveteria-FormularioReact/static/js/main.f33ac2e1.js",
+    "static/js/787.6af5c5c0.chunk.js": "/Sorveteria-FormularioReact/static/js/787.6af5c5c0.chunk.js",
+    "static/media/bg.jpg": "/Sorveteria-FormularioReact/static/media/bg.d14795fe355c538e3c48.jpg",
+    "index.html": "/Sorveteria-FormularioReact/index.html",
+    "main.07d46947.css.map": "/Sorveteria-FormularioReact/static/css/main.07d46947.css.map",
+    "main.f33ac2e1.js.map": "/Sorveteria-FormularioReact/static/js/main.f33ac2e1.js.map",
+    "787.6af5c5c0.chunk.js.map": "/Sorveteria-FormularioReact/static/js/787.6af5c5c0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.07d46947.css",
+    "static/js/main.f33ac2e1.js"
+  ]
+}
