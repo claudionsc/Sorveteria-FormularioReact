@@ -17,6 +17,11 @@ export const FormStyle = createGlobalStyle`
 
         
     }
+    @media (max-width: 720px) {
+        #form{
+            width: 80%;
+        }
+    }   
     @media (max-width: 500px) {
         #form{
             width: 80%;
